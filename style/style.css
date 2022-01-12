@@ -6,11 +6,12 @@ body{
     background-color: #9F9F9F;
     font-family: 'Poppins', sans-serif;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-section{
+.players-blogs{
     background-color: white;
     border-radius: 5px;
     padding-top: 13px;
@@ -96,4 +97,33 @@ hr{
 
 .top-blog h1{
     margin-bottom: 31px;
+}
+
+.courses{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 53.05px;
+    background-color: white;
+    width: 831px;
+    height: 362px;
+    padding-left: 39px;
+
+
+}
+
+
+.fas{
+    color: turquoise;
+}
+.fas, .fa-star{
+    color: grey;
+}
+.latest-courses img{
+    width: 224px;
+    height: 104px;
+    margin: 0;
+
+}
+.course-title{
+    font-size: 20px;
 }
