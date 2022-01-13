@@ -155,14 +155,6 @@ hr{
 
 
 
-
-
-   
-
-
-
-
-
 .courses{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -224,6 +216,9 @@ hr{
     grid-template-columns: repeat(1,1fr);}
 
     
+    .blog {
+        display: flex;
+        flex-direction: column;}
 
  
 
@@ -265,4 +260,9 @@ hr{
         grid-template-columns: repeat(1,1fr);}
     
         
+        .blog {
+            display: flex;
+            flex-direction: column;}
+
     }
+
